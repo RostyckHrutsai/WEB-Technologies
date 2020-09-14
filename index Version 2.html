@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+   // +38 (050) 000-00-00
+   //let number="+380500000000"
+    function enter_number(){
+        var num=prompt("Please, enter your phone number:");
+        var i=num.length
+        if(i==13){return num}
+        else{
+            alert("Wrong number!");
+            num = prompt("Please, enter your phone number:");
+        }
+        return num;
+    }
+    var number=enter_number();
+    var result=''
+    for(var x=0;x<13;x++){
+        result+=number[x]
+        switch(x){
+            case 2:
+            result+=(' (')
+            break;
+            case 5:
+            result+=(') ')
+            break;
+            case 8:
+            result+=('-')
+            break;
+            case 10:
+            result+=('-')
+            break;
+            default:
+                break;
+        }
+    }
+    document.write(result)
+</script>
+    </html>
