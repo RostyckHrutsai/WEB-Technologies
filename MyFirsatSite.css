@@ -1,0 +1,14 @@
+.center{
+    text-align: center;
+}
+body {
+    background-color:palegoldenrod;
+  }
+
+div {
+    color: blue;
+    margin: auto;
+    width: 50%;
+    border: 3px solid black;
+    background-color: white;
+}
