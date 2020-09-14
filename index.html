@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<script>
+  // +38 (050) 000-00-00
+   let number="+380500000000"
+  var i=number.length
+    var result=''
+    for(var x=0;x<i;x++){
+        result+=number[x]
+        switch(x){
+            case 2:
+            result+=(' (')
+            break;
+            case 5:
+            result+=(') ')
+            break;
+            case 8:
+            result+=('-')
+            break;
+            case 10:
+            result+=('-')
+            break;
+            default:
+                break;
+        }
+    }
+    document.write(result)
+</script>
+    </html>
