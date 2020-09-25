@@ -1,0 +1,125 @@
+<style>
+    @media (mix-width: 600px) {
+      .navigate {
+        background-color: white;
+      }
+    }
+    
+    #main-doc {
+      border-width: 3px;
+      border-color: black;
+      padding-left: 10px;
+    }
+  </style>
+  <html>
+  
+  <head>
+    <title></title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <nav id="navbar" class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+    <h3 class="w3-bar-item"><header>How to say "Hello World!" on different languages</header></h3>
+    <a href="#C++" class="w3-bar-item w3-button">C++</a>
+    <a href="#Java" class="w3-bar-item w3-button">Java</a>
+    <a href="#Python" class="w3-bar-item w3-button">Python</a>
+    <a href="#C#" class="w3-bar-item w3-button">C#</a>
+    <a href="#JavaScript" class="w3-bar-item w3-button">JavaScript</a>
+    <a href="#lang" class="w3-bar-item w3-button">List of languages</a>
+  </nav>
+  <div id="main-doc" style="margin-left:25%">
+    <section id="C++" class="main-section">
+      <header>
+        <h3>C++</h3></header>
+      <p>
+        In this example, we will learn to create a simple program named "Hello World" in C++ programming.
+      </p>
+      <br>
+      <code>// Your First C++ Program<br>
+  
+              #include <iostream><br>
+              
+              int main() {<br>
+                  std::cout << "Hello World!";<br>
+                  return 0;<br>
+              }</code>
+      <br>
+      <p>We use std:cout in order to print output on the screen. We must include iostream if we want to use std::cout. The execution of code begins from the main() function. This function is mandatory. This is a valid C++ program that does nothing.</p>
+      <br>
+    </section>
+    <hr>
+    <section id="Python" class="main-section">
+      <header>
+        <h3>Python</h3></header>
+      <p>You can create a simple "hello world" program by using Python's print() function to output the text "Hello World" to the screen. </p>
+      <br>
+      <code>print("Hello World")<br></code>
+      <br>
+      <p>This is probably the simplest Python program you'll ever create, nevertheless it's still a Python program. As with any computer program, you can save this to a file, then add to more functionality later if needed.</p>
+      <br>
+    </section>
+    <hr>
+    <section id="Java" class="main-section">
+      <header>
+        <h3>Java</h3></header>
+      <p>If you want to run this program on your computer, make sure that Java is properly installed. Also, you need an IDE (or a text editor) to write and edit Java code. </p>
+      <br>
+      <code>// Your First Program<br>
+                  class HelloWorld {<br>
+                      public static void main(String[] args) {<br>
+                          System.out.println("Hello, World!"); <br>
+                      }<br>
+                  }</code>
+      <br>
+      <p>The following code prints the string inside quotation marks Hello, World! to standard output (your screen). Notice, this statement is inside the main function, which is inside the class definition.</p>
+      <br>
+    </section>
+    <hr>
+    <section id="C#" class="main-section">
+      <header>C#</header>
+      <p>his is the most basic application type on a Windows system, but it's great for learning the language. Once you click Ok, Visual Studio creates a new project for you, including a file called Program.cs. This is where all the fun is, and it should look something like this:</p>
+      <br>
+      <code>using System;<br>
+                  using System.Collections.Generic;<br>
+                  using System.Linq;<br>
+                  using System.Text;<br>
+                  using System.Threading.Tasks;<br>
+                  
+                  namespace ConsoleApp1<br>
+                  {<br>
+                      class Program<br>
+                      {<br>
+                      static void Main(string[] args)<br>
+                      {<br>
+                      }<br>
+                      }<br>
+                  }</code>
+      <br>
+      <p>The first line uses the Console class to output a line of text, and the second one reads a line of text from the console. Read? Why? Actually this is a bit of a trick, since without it, the application would just end and close the window with the output before anyone could see it.</p>
+      <br>
+    </section>
+    <hr>
+    <section id="JavaScript" class="main-section">
+      <header>JavaScript</header>
+      <p>JavaScript programs can be inserted into any part of an HTML document with the help of the script tag.</p>
+      <br>
+      <code>
+                  alert( 'Hello, world!' )<br>
+              </code>
+      <br>
+      <p>The old HTML standard, HTML4, required a script to have a type. Usually it was type="text/javascript". It’s not required anymore. Also, the modern HTML standard totally changed the meaning of this attribute. Now, it can be used for JavaScript modules. </p>
+      <br>
+    </section>
+    <section id="lang">
+      <ul>
+        <li>C++</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>C#</li>
+        <li>JavaScript</li>
+      </ul>
+    </section>
+  </div>
+  </div>
+  </main>
+  
+  </html>
